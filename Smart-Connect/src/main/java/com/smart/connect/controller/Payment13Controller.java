@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Payment13Controller {
 
-    Logger logger = LoggerFactory.getLogger(Payment13.class);
+    Logger logger = LoggerFactory.getLogger(Payment13Controller.class);
 
     @GetMapping(path = "//Payment13/login")
     public String login()

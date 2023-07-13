@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OpenAR1Controller {
 
-    Logger logger = LoggerFactory.getLogger(OpenAR1.class);
+    Logger logger = LoggerFactory.getLogger(OpenAR1Controller.class);
 
     @GetMapping(path = "/login")
     public String login()
