@@ -10,4 +10,9 @@ class SmartConnectApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void sout() {
+		System.out.print("testing");
+	}
+
 }
