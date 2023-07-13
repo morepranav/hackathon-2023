@@ -18,4 +18,11 @@ public class LoginController {
     {
         return "Test message";
     }
+
+    @PostMapping(path = "/healthEndpoint")
+    public String healthSuccess()
+    {
+        return "This works";
+    }
+
 }
