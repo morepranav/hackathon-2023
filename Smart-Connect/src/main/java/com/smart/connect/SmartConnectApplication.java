@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SmartConnectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmartConnectApplicationController.class, args);
+		SpringApplication.run(SmartConnectApplication.class, args);
 	}
 
 }

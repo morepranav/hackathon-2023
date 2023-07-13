@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-    @GetMapping(path = "/login")
+    @GetMapping(path = "/LoginController/login")
     public String login()
     {
         throw new NullPointerException();
         //return "Test message.";
     }
 
-    @GetMapping(path = "/successlogin")
+    @GetMapping(path = "/LoginController/successlogin")
     public String successLogin()
     {
         return "Test message";
