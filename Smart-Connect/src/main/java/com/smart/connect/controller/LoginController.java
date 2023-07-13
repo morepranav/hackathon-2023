@@ -10,7 +10,7 @@ public class LoginController {
     public String login()
     {
         throw new NullPointerException();
-        //return "Test message";
+        //return "Test message.";
     }
 
     @GetMapping(path = "/successlogin")
@@ -23,6 +23,7 @@ public class LoginController {
     public String healthSuccess()
     {
         return "This works";
+
     }
 
 }
