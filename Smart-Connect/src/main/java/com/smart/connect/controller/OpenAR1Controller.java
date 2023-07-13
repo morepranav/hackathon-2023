@@ -11,14 +11,14 @@ public class OpenAR1Controller {
 
     Logger logger = LoggerFactory.getLogger(OpenAR1Controller.class);
 
-    @GetMapping(path = "/login")
+    @GetMapping(path = "/OpenAR1/login")
     public String login()
     {
         logger.error("Error occurred while processing this request.");
         throw new NullPointerException();
     }
 
-    @GetMapping(path = "/successlogin")
+    @GetMapping(path = "/OpenAR1/successlogin")
     public String successLogin()
     {
         logger.info("This request has been processed successfully.");
