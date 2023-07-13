@@ -23,6 +23,7 @@ public class LoginController {
     public String healthSuccess()
     {
         return "This works";
+
     }
 
 }
