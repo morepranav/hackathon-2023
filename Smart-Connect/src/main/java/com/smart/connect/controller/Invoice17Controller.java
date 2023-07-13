@@ -9,21 +9,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Invoice17Controller {
 
-    Logger logger = LoggerFactory.getLogger(Invoice17Controller.class);
+    Logger logger = LoggerFactory.getLogger(Invoice17.class);
 
-    @GetMapping(path = "/login")
+    @GetMapping(path = "/Invoice17/login")
     public String login()
     {
         logger.error("Error occurred while processing this request.");
         throw new NullPointerException();
     }
 
-    @GetMapping(path = "/successlogin")
+    @GetMapping(path = "/Invoice17/successlogin")
     public String successLogin()
     {
         logger.info("This request has been processed successfully.");
-
-	return "Test message";
+        return "Test message";
     }
 }
 
