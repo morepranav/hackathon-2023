@@ -22,7 +22,8 @@ public class Invoice28Controller {
     public String successLogin()
     {
         logger.info("This request has been processed successfully.");
-        return "Test message";
+
+	return "Test message";
     }
 }
 
